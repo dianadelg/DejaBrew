@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "CoffeeBreak"
+  "defaultProject": "CoffeeBreak",
+  "cli": {
+    "analytics": "6a9ae9f1-dcac-47df-87f4-b63fd265a5df"
+  }
 }
