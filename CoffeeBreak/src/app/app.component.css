@@ -4,10 +4,10 @@ body{
 }
 
 /* navbar styling */
-.topnav {
+ .topnav {
     background-color: #fdbb58;
     overflow: hidden;
-  }
+ }
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -36,5 +36,32 @@ body{
   .topnav .icon {
     display: none;
   }
+/* end navbar  */
 
-  /* end navbar  */
+/* parallax image */
+  .parallax {
+    /* The image used */
+    background-image:     linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(253, 187, 88, 0.63)),url("src\assets\images\background.jpg");
+
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imageText{
+      padding-top: 80px;
+      font-size: 100px;
+      color: white;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
+
+ /* end parallax */
