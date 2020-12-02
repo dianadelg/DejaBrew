@@ -3,41 +3,6 @@ body{
     color:rgb(250,250,250,0.83);
 }
 
-/* navbar styling */
- .topnav {
-    background-color:#121212;
-    overflow: hidden;
- }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #fefdfe;
-    color: black;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #fdbb58;
-    color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
-/* end navbar  */
-
 /* parallax image */
   .parallax {
     /* The image used */
@@ -61,7 +26,5 @@ body{
       text-align: center;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-
-  
 
  /* end parallax */
