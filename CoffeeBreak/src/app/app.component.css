@@ -5,7 +5,7 @@ body{
 
 /* navbar styling */
  .topnav {
-    background-color: #fdbb58;
+    background-color:#121212;
     overflow: hidden;
  }
   
@@ -28,7 +28,7 @@ body{
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #121212;
+    background-color: #fdbb58;
     color: white;
   }
   
