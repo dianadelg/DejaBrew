@@ -6,6 +6,8 @@ import { MainDashboardComponent } from './main-dashboard/main-dashboard.componen
 import { MatSliderModule } from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { Test1Component } from './test1/test1.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 
@@ -19,7 +21,8 @@ import { Test1Component } from './test1/test1.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
