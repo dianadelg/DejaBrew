@@ -5,12 +5,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { Test1Component } from './test1/test1.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainDashboardComponent
+    MainDashboardComponent,
+    Test1Component
   ],
   imports: [
     BrowserModule,
