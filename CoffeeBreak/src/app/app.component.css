@@ -120,3 +120,52 @@ body{
 a:hover {
   color: white;
 }
+
+/*Background image*/
+.subscription .bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: max-content;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* parallax image */
+.parallax2 {
+  /* The image used */
+  background-image:     url("src\assets\images\coffee_table.jpg");
+  /* Do not set height or else responsiveness does not work*/
+
+  /* Create the parallax scrolling effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imageText2{
+  padding-left: 50px;
+  padding-right: 40px;
+  padding-top: 100px;
+  font-size: 60px;
+  color: #121212;
+  text-align: left;
+  font-family: 'Bebas Neue', arial;
+}
+
+.smallText2{
+  padding-left: 50px;
+  padding-right: 50px;
+  /* padding-top: 100px; */
+  padding-bottom: 50px;
+  font-size: 30px;
+  color:#121212;
+  text-align: left;
+  font-family: 'Bebas Neue', arial;
+  /* background-color:  rgba(253, 187, 88, 0.83); */
+}
+
+
