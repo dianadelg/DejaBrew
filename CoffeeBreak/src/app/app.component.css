@@ -102,6 +102,7 @@ body{
   height: auto;
 }
 
+
 .imgTxtBody1{
   text-align: center;
   font-size: 1.5rem;
@@ -111,28 +112,16 @@ body{
 }
 
 .mat-button, .mat-raised-button{
-  background-color:orange;
+  background-color:rgba(253, 187, 88);
   padding-left: 50px;
   padding-right: 50px;
   color:black;
 } 
 
+
 a:hover {
   color: white;
 }
-
-/*Background image*/
-.subscription .bg {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: max-content;
-  background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 /* parallax image */
 .parallax2 {
@@ -167,5 +156,6 @@ a:hover {
   font-family: 'Bebas Neue', arial;
   /* background-color:  rgba(253, 187, 88, 0.83); */
 }
+
 
 
